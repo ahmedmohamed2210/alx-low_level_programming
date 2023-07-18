@@ -16,5 +16,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
-ireturn (0);
+return (0);
 }
