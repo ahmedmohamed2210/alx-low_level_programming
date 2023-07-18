@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main, _putchar
+ * main - print _putchar
  *
  * Return: 0
  */
