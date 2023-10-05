@@ -2,8 +2,7 @@
 #include "main.h"
 
 /**
- * **alloc_grid - create two dimensional array of zeros
- * 
+ * **alloc_grid - create two dimensional array of zeros 
  * @width: int number of grid width
  * @height: int number of grid height
  *
@@ -23,9 +22,9 @@ int **alloc_grid(int width, int height)
 	if (arr == NULL)
 		return (NULL);
 
-	for(i = 0; i< height; i++)
+	for (i = 0; i < height; i++)
 	{
-		arr[i]= (int *) malloc(sizeof(int) * width);
+		arr[i] = (int *) malloc(sizeof(int) * width);
 		if (arr[i] == NULL)
 		{
 			free(arr);
