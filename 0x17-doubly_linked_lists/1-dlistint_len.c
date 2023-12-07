@@ -22,9 +22,6 @@ size_t dlistint_len(const dlistint_t *h)
 		count ++;
 		h = h->next;
 	}
-
-
-
-
-
+	
+	return (count);
 }
